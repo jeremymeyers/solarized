@@ -5,7 +5,19 @@ Solarized - OS X Terminal.App Settings
 
 Installation
 ------------
+OS X versions 10.7 and above support custom profiles, making enabling Solarized simple.
 
+1. Launch the Terminal app
+2. From the Terminal menu, select "Preferences..."
+3. In the resulting window, select the "Profiles" tab
+4. Click on the Gear icon on the bottom left side of the window, then select "Import..."
+5. Navigate to the directory containing the OSX Solarized profiles
+6. Select the appropriate files (Note that this window does not support multi-selection so you will have to do this twice, once each for light and dark themes).
+7. Once the themes have been added to the profile list, click on either the light or dark theme, and select "Default" (next to the Gear icon)
+8. Close the settings dialog.  Note that this will only apply to Terminal windows going forward, so currently open windows won't be themed.
+
+MacOS 10.0-10.6 Instructions
+------------
 Terminal.app doesn't have full color modification support without some effort.  
 The following has only been tested on Snow Leopard. See the links below for 
 updates. I make no claims as to the effectiveness of these methods. iTerm2 may 
